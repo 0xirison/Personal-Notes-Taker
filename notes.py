@@ -14,7 +14,7 @@ from datetime import date
 import random, html, secrets
 
 
-app= Flask(__name__)
+app = Flask(__name__)
 app.config['SECRET_KEY'] = secrets.token_urlsafe(25)
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///note.sqlite3"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
