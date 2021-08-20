@@ -29,7 +29,7 @@ then open the application in your browser by writing: 127.0.0.1:5000
 - search feature for notes
 - notes content encryption
 - recently deleted notes
-- Notes lock
+- notes lock
 - creation date
 
 # Common Issues
