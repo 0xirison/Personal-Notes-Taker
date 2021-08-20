@@ -31,6 +31,7 @@ then open the application in your browser by writing: 127.0.0.1:5000
 - recently deleted notes
 - notes lock
 - showing notes creation date
+- pagination
 
 # Common Issues
 - If the application does not work with you properly and showed 'Internal Server Error', change the default running port '5000' of it and run it again because it may be that you have a process using the same port
