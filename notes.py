@@ -1,3 +1,13 @@
+#!/usr/bin/python3
+'''
+==========================
+Personal Notes Taker v1.0
+Author: irison
+GitHub: https://github.com/0xirison
+*._.* __ _ ._ 
+|[  |_) (_)[ )
+==========================                                   
+'''
 from flask import Flask, render_template , url_for, redirect, request, flash
 from flask_sqlalchemy import SQLAlchemy
 from datetime import date
