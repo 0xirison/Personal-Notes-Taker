@@ -1,5 +1,5 @@
 # Introduction
-Personal Notes Taker allows you to write, edit and delete your own notes on a simpe web application interface. It is built by Python (Flask microframework) as the backend.
+Personal Notes Taker allows you to write, edit and delete your own notes on a simpe web application interface. It is built by Python (Flask microframework) as the backend and use SQLAlchemy module extension for flask to connect to the database.
 
 # Installation
 ```
