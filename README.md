@@ -12,8 +12,9 @@ pip3 install -r requirements.txt
 # Usage
 ```
 python notes.py
-then open the application in your browser by writing: 127.0.0.1:5000
 ```
+then open the application in your browser by writing: 127.0.0.1:5000
+
 
 # Features
 - representing each note as a card
