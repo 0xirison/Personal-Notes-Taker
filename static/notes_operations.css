@@ -1,0 +1,59 @@
+html,body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #293b4d;
+
+}
+/* Note Edition Window */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.notewindow{
+  position: absolute;
+	top:50;
+	bottom: 50;
+	left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  padding: 30px;
+}
+
+/* title */
+
+.heading__title {
+  font-weight: 600;
+  font-family: Segoe Script;
+    text-align: center;
+  color: #97645A;
+
+}
+
+.inner
+{
+    display: inline-block;
+}
+
+
+/* responsive */
+
+@media screen and (max-width:768px) {
+
+div input {
+  max-width: 80%;
+}
+
+div textarea {
+  box-sizing: border-box;
+  max-width: 80%;
+}
+
+div button{
+    margin-bottom :10px
+
+}
+}

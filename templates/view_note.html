@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+      <link href="/static/notes_operations.css" rel="stylesheet">
+      <title>
+         View a Note
+      </title>
+   </head>
+   <body class="text-center">
+      <div class="notewindow">
+         <h1 class="heading__title">View a Note</h1>
+         <br><br>
+         <div>
+            <form action="#" method="POST">
+               <input type="text" id="view_title" name="view_title" size="60" placeholder="Note Title" value="{{message.title}}" required  />
+         </div>
+         <br>
+         <textarea id="view_note" name="view_note" cols="70" rows="10" placeholder="Note Content" required>{{message.content}}</textarea><br /><br />
+         <button type="submit" id="save_edited_note" name="save_edited_note" class="btn btn-success " >Save the Note</button>
+         </form>
+         <button type="button" id="delete_note" name="delete_note"  class="btn btn-danger inner" onclick="if (confirm('are you sure you want to delete this account?')) window.location.href='/delete_note/{{message.id}}'; return false;">Delete the Note</button>
+         <button type="button" id="back" name="back"  class="btn btn-info inner" onclick="window.location.href='{{url_for("notes")}}';"> Back</button>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+   </body>
+</html>
+
