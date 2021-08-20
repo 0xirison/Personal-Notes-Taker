@@ -30,7 +30,7 @@ python notes.py
 - Notes lock
 
 # Common Issues:
-- If it does not work with you properly, change the default port '5000' of the application and run it again
+- If the application does not work with you properly, change the default running port '5000' of it and run it again
 - If the problem still exists, make sure that you have all requirements mentioned above
 
 # Screenshot
