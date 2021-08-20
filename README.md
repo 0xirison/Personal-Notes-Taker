@@ -31,7 +31,7 @@ then open the application in your browser by writing: 127.0.0.1:5000
 - recently deleted notes
 - Notes lock
 
-# Common Issues:
+# Common Issues
 - If the application does not work with you properly and showed 'Internal Server Error', change the default running port '5000' of it and run it again
 - If the problem still exists, make sure that you have all requirements mentioned above
 
