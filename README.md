@@ -20,7 +20,7 @@ python notes.py
 - simple notes cards animation (transforming)
 - write, edit and delete notes
 - showing last modified date of notes
-- light touch of input validations security
+- light touch of security for input validations attacks
 - responsive for mobile devices and others
 
 # Upcoming Features
