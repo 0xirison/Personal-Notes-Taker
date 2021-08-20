@@ -21,7 +21,7 @@ then open the application in your browser by writing: 127.0.0.1:5000
 - random colorful card for every page refresh
 - simple notes cards animation (transforming)
 - write, edit and delete notes
-- showing last modified date of notes
+- showing last modified dates of notes
 - light touch of security for input validations attacks
 - responsive for mobile devices and others
 
